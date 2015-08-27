@@ -1,0 +1,128 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html, body {
+	height: 100%;
+}
+input{
+	border-width:1px;
+	border-style: solid;
+	border-color: grey;
+}
+.list_boxes {
+    display:inline;
+    float:left;
+    width:230px;
+    height:373px;
+    padding-bottom:20px;
+	border: 1px solid black;
+}
+.list_boxes > a {
+	font-size: 13px;
+	
+}
+.list_boxes h1 a {
+    font-size:40px;
+    text-align:center;
+}
+.cap {
+	float: right;
+}
+.captions {
+    padding-left:2px;
+    padding-right:2px;
+}
+h1 {
+	font-size: 25px;
+	text-align: center;
+	height: 45px; 
+	vertical-align: top;
+}
+#ingimage {
+	float:right;
+	min-height:100px;
+	min-width:200px;
+}
+#updatePopup {
+	display: none;
+	margin-left:7%;
+	position:fixed;
+	background-color: grey;
+}
+#loginTable{
+	margin:5px;
+}
+#loginPopup {
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	display: none;
+	margin-left:800;
+	position:fixed;
+	top:45px;
+	background-color: white;
+}
+.success {
+	background-color:lightGreen;
+	margin:9px;
+	padding:5px;
+}
+.fail {
+	background-color:lightCoral;
+	margin:9px;
+	padding:5px;
+}
+.missing_ings {
+	background-color:DarkOrange;
+}
+.topright {
+	float:right;
+}
+
+textarea {
+	width: 100%;
+	height: 100%;
+}
+
+/* Autocomplete */
+.ac_results {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	font: menu;
+	font-size: 12px;
+	line-height: 16px;
+	overflow: hidden;
+}
+
+.ac_loading {
+	background: white url('indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #eee;
+}
+
+.ac_over {
+	background-color: #0A246A;
+	color: white;
+}
+
