@@ -1,3 +1,1 @@
-# Kohana PHP Framework, version 3.1 (release)
-
-This is the current release version of [Kohana](http://kohanaframework.org/).
+Drinkrecept is a project of mine that started as a way to explore XSLT and it's possibilites, along with other (at the time) new techniques. It started fairly simple, and most of the code still is, and turned out to be a useful expedition into some new territory.
